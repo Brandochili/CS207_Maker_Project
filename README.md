@@ -25,6 +25,8 @@ Bill of Materials:
 - 1 x box of 1 1/4 inch screws
 - 1 x 12 ft of wiring for the LEDs
 - 1 x 1000uF Capacitor
+- 1 x 12v to 5v stepdown module
+- 1 x 12v to 5v USB stepdown module with USB outputs
 - 1 x 560 Ohm resistor
 - 1 x 6ft of speaker wire
 - 1 x USB drive for storing music
@@ -45,9 +47,13 @@ There is an excelent video on youtube demonstrating how to do this. The link is 
 Please note that for this project, we will use the dual micro USB cable method of powering the devices. Don't apply power yet.
 
 First bootup:
-before you boot up the RPi, download the volumio app from the App Store or the Play Store or have an internet browser open. Plug an ethernet cable into the RPi for internet and apply power to the RPi. Volumio is not set up to stream to the touchscreen so you will only get lines of code. Use the app to automatically find the RPi or find the IP address on the touchscreen and enter that into your browser. You will now be able to control the RPi volumio system. Go to plugins and download the Raspberry Pi Official Touchscreen plugin (it may take quite a while so let it instll fully) and then enable it. Using the app or browser, restart the RPi in settings tab and when the RPi restarts, volumio should now be on the touchscreen!
+before you boot up the RPi, download the volumio app from the App Store or the Play Store or have an internet browser open. Plug an ethernet cable into the RPi for internet and apply power to the RPi. Volumio is not set up to stream to the touchscreen so you will only get lines of code. Use the app to automatically find the RPi or find the IP address on the touchscreen and enter that into your browser. You will now be able to control the RPi volumio system. Go to plugins and download the Raspberry Pi Official Touchscreen plugin (it may take quite a while so let it instll fully) and then enable it. Using the app or browser, restart the RPi in settings tab and when the RPi restarts, volumio should now be on the touchscreen! If it doesnt, go back to re-flashing the micro SD card and start over.
 
 Lets talk about the Arduino and NeoPixel circuitry now:
+The Arduino Uno can't supply enough power to power all of the LEDs so we will need to power the LEDs seperately. To do this, we will use a 12 volt switching power supply. The circuitry diagram can be seen below but here is a discription of what is going on. The positive and negative (ground) wire from the power supply will  be wired to a 12v to 5v stepdown module and then soldered onto a proto board. They will first go through a 1000uF capacitor to smooth out the voltage to protect the LEDs. From the capacitor, the positive end will be connected to the 5V input on the LED strip and the ground will be connected to the ground on the LED strip. The ground wil also go to one of the ground pins on the Arduino as the LED strip must be grounded to the Arduino as well (Do not connect the positive to the Arduino).
+
+
+
 
 
 Updates for CS 207 Project to come.
