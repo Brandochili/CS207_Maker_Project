@@ -55,6 +55,12 @@ The Arduino Uno can't supply enough power to power all of the LEDs so we will ne
 Connecting the Arduino to the Raspberry Pi:
 This is fairly simple. If using the headphone jack from the RPi for your music output, simply cut an old heaphone cable at one end to expose the left, right and ground wires. Plug a AUX splitter into the RPi and plug the cut headphone calbe into the splitter. Now plug either the left or right channel into the Arduino's A0 pin and th ground into the Arduino's ground pin. Plug the Arduino into the RPi using the USB cable.
 
+Speakers are no good without an Amplifier:
+This next section will cover the connectin between the RPi, amplifier, power supply and speakers. To connect the RPi to the amplifier, use a3.5mm AUx to RCA cable. Plug the AUX end into the other end of the RPi splitter and the RCS ends into the amplifier. Using the speaker wire, wire up the left and right speakers to the amplifier. Finally, plug the 19v power supply to the amplifier.
+
+But the Rspberry Pi has no power:
+To power the RPi, we will use the 12v switching power supply and connect the positive and negative ends of the 12v to 5v USB stepdown module. Now, plug the RPi into the USB module.
+
 
 
 
