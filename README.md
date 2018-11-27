@@ -71,6 +71,20 @@ Both of these codes were heavily modified be me to match the requirememnts of th
 
 You are now ready to try it out. Plug it in and enjoy!
 
+Team:
+
+Brandon Watson - head designer
+Carter Watson - code contribution
+Scott Watson - second pair of hands for woodworking
+Janet Watson - design tips
+
+Credit:
+
+software: www.volumio.com (Fantastic free open source software!!! Well done Volumio Team!)
+original idea:
+code framework:
+cool animations:
+
 
 
 Updates for CS 207 Project to come.
