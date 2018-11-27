@@ -6,6 +6,20 @@ This jukebox runs a free and open source software called Volumio. The jukebox is
 
 
 Bill of Materials:
+- 1 x Raspberry Pi B
+- 1 x Arduino Uno
+- 1 x Amplifier()
+- 2 x speakers
+- 1 x Adafruit NeoPixel 1 meter strip
+- 1 x 12 volt switching power supply
+- 1 x 19 volt laptop power supply
+- 1 x Justboom Stereo DAC
+- 1 x Raspberry Pi Official Touchscreen
+- 1 x Old Computer Power Supply
+- 1 x Volumio Software Installed on Micro SD Card and Volumio Account
+- 1 x PTFE clear 1/2 outer diameter tubing
+- 1 x 4ft by 2ft sheet of 3/4 inch thick plywood
+- 1 x 4ft by 2ft sheet of 1/4 inch thick plywood
 
 
 Updates for CS 207 Project to come.
