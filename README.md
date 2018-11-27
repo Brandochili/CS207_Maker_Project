@@ -13,3 +13,5 @@ October 29th: The basic framing for the LED light show coding has been taken fro
 
 November 1st - Coding challenges:
 Seeing as the code framework used for this build was designed around an auto gain adjustment microphone, a new equation had to be used to balance out the voltage readings coming in from the audio source (a headphone cable connected directly to the Arduino's ground and A0 pin). A microphone was not used for this projct as it was decided that the jukebox LEDs should only respond to the music from the jukebox and not outside noices and voices. The problem then arizes that the voltage can heavily range with volume. The detected ranges for voltage were 0 to 500. Therefore, a modulus divide equation was used to make sure that the LEDs function properly for any volume level.
+
+November 4th - 
