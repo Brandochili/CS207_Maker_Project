@@ -62,7 +62,7 @@ But the Rspberry Pi has no power:
 To power the RPi, we will use the 12v switching power supply and connect the positive and negative ends of the 12v to 5v USB stepdown module. Now, plug the RPi into the USB module.
 
 Mains power is very dangerous:
-This section is where things can get dangerous so be careful. I used the power switch and plugin from an old computer power supply. Simply tear out these 
+This section is where things can get dangerous so be careful. I used the power switch and plugin from an old computer power supply. Simply tear out these components out of the power supply. The power supply I used had resistors ad a 250v capacitor soldered onto the plugin. I removed these components as the 12v switching ower supply already has these built in. Now, wire the ground from the plugin to the ground on the switching power supply, the positive from the switch to the positive input and the negative from the switch to the negative input from the switching power supply. This is safer than directly wiring the power chord to the power supply as if the chrd is pulled, it will simply unplug from the plugin rather than havng live wires floating around.
 
 
 
