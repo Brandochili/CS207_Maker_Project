@@ -39,6 +39,9 @@ The Build Instructions:
 
 A huge portion of this poject is woodworking. I understand that the techniques used in this project are more advanced than a lot of people would like to take on but it doesnt have to be complicated. You can simply make a plywood box and paint it or find an already built box and modify it to meet the needs of this project.
 
+The woodworking challenge:
+
+
 Lets start with the software:
 Go to www.volumio.com and download the software package from the download tab of the website. Select the Raspberry Pi code choise as this is what we will be using for this project. Once downloaded, using a flashing software, fsh the volumio software onto a 8gb micro SD card. Once complete, the SD card can be plugged into the Raspberry Pi (RPi). Before you power on the RPi, make a volumio account. A bonus feature you get from a volumio account is the ability to cloud save your volumio device settings for poweroutages. Don't power the RPi on at this point.
 
