@@ -61,7 +61,8 @@ This next section will cover the connectin between the RPi, amplifier, power sup
 But the Rspberry Pi has no power:
 To power the RPi, we will use the 12v switching power supply and connect the positive and negative ends of the 12v to 5v USB stepdown module. Now, plug the RPi into the USB module.
 
-
+Mains power is very dangerous:
+This section is where things can get dangerous so be careful. I used the power switch and plugin from an old computer power supply. Simply tear out these 
 
 
 
