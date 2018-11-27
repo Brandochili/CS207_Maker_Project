@@ -33,12 +33,21 @@ Bill of Materials:
 - a woodworking shop and fine woodworking tools (optional)
 
 
+The Build Instructions:
+
 A huge portion of this poject is woodworking. I understand that the techniques used in this project are more advanced than a lot of people would like to take on but it doesnt have to be complicated. You can simply make a plywood box and paint it or find an already built box and modify it to meet the needs of this project.
 
 Lets start with the software:
 Go to www.volumio.com and download the software package from the download tab of the website. Select the Raspberry Pi code choise as this is what we will be using for this project. Once downloaded, using a flashing software, fsh the volumio software onto a 8gb micro SD card. Once complete, the SD card can be plugged into the Raspberry Pi (RPi). Before you power on the RPi, make a volumio account. A bonus feature you get from a volumio account is the ability to cloud save your volumio device settings for poweroutages. Don't power the RPi on at this point.
 
 Next lets look at installing the RPi Official Touchscreen:
+There is an excelent video on youtube demonstrating how to do this. The link is here: https://www.youtube.com/watch?v=tK-w-wDvRTg
+Please note that for this project, we will use the dual micro USB cable method of powering the devices. Don't apply power yet.
+
+First bootup:
+before you boot up the RPi, download the volumio app from the App Store or the Play Store or have an internet browser open. Plug an ethernet cable into the RPi for internet and apply power to the RPi. Volumio is not set up to stream to the touchscreen so you will only get lines of code. Use the app to automatically find the RPi or find the IP address on the touchscreen and enter that into your browser. You will now be able to control the RPi volumio system. Go to plugins and download the Raspberry Pi Official Touchscreen plugin (it may take quite a while so let it instll fully) and then enable it. Using the app or browser, restart the RPi in settings tab and when the RPi restarts, volumio should now be on the touchscreen!
+
+Lets talk about the Arduino and NeoPixel circuitry now:
 
 
 Updates for CS 207 Project to come.
