@@ -20,11 +20,22 @@ Bill of Materials:
 - 1 x PTFE clear 1/2 outer diameter tubing
 - 1 x 4ft by 2ft sheet of 3/4 inch thick plywood
 - 1 x 4ft by 2ft sheet of 1/4 inch thick plywood
+- 1 x box of 1 inch screws
+- 1 x box of 3/4 inch screws
+- 1 x box of 1 1/4 inch screws
+- 1 x 12 ft of wiring for the LEDs
+- 1 x 1000uF Capacitor
+- 1 x 560 Ohm resistor
+- 1 x 6ft of speaker wire
+- 1 x USB drive for storing music
+- 1 x 1ft by 96 inch role of walnut veneer (optional)
+- 1 x 3ft by 1.5ft panel of solid walnut (optional)
+- a woodworking shop and fine woodworking tools (optional)
 
 
 Updates for CS 207 Project to come.
 
-October 28th: All electronic components needed for this build have been ordered from various websites. The Sure Electronics AA-AB32174 2x50W TDA7492 Class-D Amplifier Board was chosen for the amplifier as it is a good quality unit that comes at a good price. Two 3.5 inch Dayton Audio Midrange woofers were used for the sound output for the jukebox as they have great bass response for the price and punch way about their weight class. The JustBoom stero DAC was used  to improve the sound quality being output from the Raspberry Pi. The official Raspberry Pi touchscreen was used as it has a wel established functionality with the Raspberry Pi and Volumio which is very important as Volumio is meant to be a cloud based service rather than a 'same machine' screen service. This device will have a more finished look than the general 'maker' theme as itwill be used by many people and will hopefully end up being a showpiece. It will be made out of walnut and bloodwood.
+October 28th: All electronic components needed for this build have been ordered from various websites. The Sure Electronics AA-AB32174 2x50W TDA7492 Class-D Amplifier Board was chosen for the amplifier as it is a good quality unit that comes at a good price. Two 3.5 inch Dayton Audio Midrange woofers were used for the sound output for the jukebox as they have great bass response for the price and punch way about their weight class. The JustBoom stero DAC was used  to improve the sound quality being output from the Raspberry Pi. The official Raspberry Pi touchscreen was used as it has a wel established functionality with the Raspberry Pi and Volumio which is very important as Volumio is meant to be a cloud based service rather than a 'same machine' screen service. This device will have a more finished look than the general 'maker' theme as it will be used by many people and will hopefully end up being a showpiece. It will be made out of walnut and bloodwood.
 
 October 29th: The basic framing for the LED light show coding has been taken from the Youtuber Robert Robert who made an excelent Neopixel based LED lightshow tht is music responsive. A basic explanation as to how the code works. The arduino pulls in 50ms of music sample from an auto gain adjustment microphone and through a combination of eqations, assigns the incoming voltage samples to a number from 0 to 11. A seriese of 'if' statements is then used to 'ick' and run a LED lightshow function. For exmple, if the number is 0, a rainbow effect is run. If the nuber is 4, an old style movie theatre lightshow is displayed. This code repeats on a loop and when no music is playing, the rainbow fucntion is run.
 
