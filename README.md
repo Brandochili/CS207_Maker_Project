@@ -5,6 +5,8 @@ The project being designed for CS207 is a touchscreen jukebox.
 This jukebox runs a free and open source software called Volumio. The jukebox is being run by a combination of a Raspberry Pi and Arduino to do the music and software proccessing and LED lightshow control. The Raspberry Pi will run Volumio and the touchscreen to interface with the music sources. The output will go to an amplifier and the Arduino Uno which will use the incoming oltage signal from the Raspberry Pi to control some NeoPixel digitally controlable LEDs.
 
 
+/img - images for the project
+
 Updates for CS 207 Project to come.
 
 October 28th: All electronic components needed for this build have been ordered from various websites. The Sure Electronics AA-AB32174 2x50W TDA7492 Class-D Amplifier Board was chosen for the amplifier as it is a good quality unit that comes at a good price. Two 3.5 inch Dayton Audio Midrange woofers were used for the sound output for the jukebox as they have great bass response for the price and punch way about their weight class. The JustBoom stero DAC was used  to improve the sound quality being output from the Raspberry Pi. The official Raspberry Pi touchscreen was used as it has a wel established functionality with the Raspberry Pi and Volumio which is very important as Volumio is meant to be a cloud based service rather than a 'same machine' screen service. This device will have a more finished look than the general 'maker' theme as itwill be used by many people and will hopefully end up being a showpiece. It will be made out of walnut and bloodwood.
