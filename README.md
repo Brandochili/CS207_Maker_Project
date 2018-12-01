@@ -5,7 +5,7 @@ The project being designed for CS207 is a touchscreen jukebox.
 This jukebox runs a free and open source software called Volumio. The jukebox is being run by a combination of a Raspberry Pi and Arduino to do the music and software proccessing and LED lightshow control. The Raspberry Pi will run Volumio and the touchscreen to interface with the music sources. The output will go to an amplifier and the Arduino Uno which will use the incoming oltage signal from the Raspberry Pi to control some NeoPixel digitally controlable LEDs.
 
 
-Bill of Materials:
+# Bill of Materials:
 - 1 x Raspberry Pi B
 - 1 x Arduino Uno
 - 1 x Amplifier()
@@ -35,7 +35,7 @@ Bill of Materials:
 - a woodworking shop and fine woodworking tools (optional)
 
 
-The Build Instructions:
+# The Build Instructions:
 
 A huge portion of this poject is woodworking. I understand that the techniques used in this project are more advanced than a lot of people would like to take on but it doesnt have to be complicated. You can simply make a plywood box and paint it or find an already built box and modify it to meet the needs of this project.
 
@@ -74,23 +74,23 @@ Both of these codes were heavily modified be me to match the requirememnts of th
 
 You are now ready to try it out. Plug it in and enjoy!
 
-Team:
+# Team:
 
 Brandon Watson - head designer
 Carter Watson - code contribution
 Scott Watson - second pair of hands for woodworking
 Janet Watson - design tips
 
-Credit:
+# Credit:
 
 software: www.volumio.com (Fantastic free open source software!!! Well done Volumio Team!)
-original idea:
-code framework:
-cool animations:
+original idea: ETA PRIME YouTube Channel (https://www.youtube.com/watch?v=_0CufyjhK_4)
+code framework:Robert Robert YouTube Channel (https://www.youtube.com/watch?v=pQwgZwrXfhc&t=83s)
+cool animations:Tweaking4All (https://www.tweaking4all.com/hardware/arduino/adruino-led-strip-effects/)
 
 
 
-Updates for CS 207 Project to come.
+# Updates for CS 207 Project to come.
 
 October 28th: All electronic components needed for this build have been ordered from various websites. The Sure Electronics AA-AB32174 2x50W TDA7492 Class-D Amplifier Board was chosen for the amplifier as it is a good quality unit that comes at a good price. Two 3.5 inch Dayton Audio Midrange woofers were used for the sound output for the jukebox as they have great bass response for the price and punch way about their weight class. The JustBoom stero DAC was used  to improve the sound quality being output from the Raspberry Pi. The official Raspberry Pi touchscreen was used as it has a wel established functionality with the Raspberry Pi and Volumio which is very important as Volumio is meant to be a cloud based service rather than a 'same machine' screen service. This device will have a more finished look than the general 'maker' theme as it will be used by many people and will hopefully end up being a showpiece. It will be made out of walnut and bloodwood.
 
@@ -98,5 +98,3 @@ October 29th: The basic framing for the LED light show coding has been taken fro
 
 November 1st - Coding challenges:
 Seeing as the code framework used for this build was designed around an auto gain adjustment microphone, a new equation had to be used to balance out the voltage readings coming in from the audio source (a headphone cable connected directly to the Arduino's ground and A0 pin). A microphone was not used for this projct as it was decided that the jukebox LEDs should only respond to the music from the jukebox and not outside noices and voices. The problem then arizes that the voltage can heavily range with volume. The detected ranges for voltage were 0 to 500. Therefore, a modulus divide equation was used to make sure that the LEDs function properly for any volume level.
-
-November 4th - 
