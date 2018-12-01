@@ -7,7 +7,7 @@ This jukebox runs a free and open source software called Volumio. The jukebox is
 
 # Repository Contents:
 - ino: This is where you will find the code for the Arduino
--image: This is where you will find images for thee project at various stages
+- image: This is where you will find images for thee project at various stages
 
 # Bill of Materials:
 - 1 x Raspberry Pi B
