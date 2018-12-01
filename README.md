@@ -5,6 +5,10 @@ The project being designed for CS207 is a touchscreen jukebox.
 This jukebox runs a free and open source software called Volumio. The jukebox is being run by a combination of a Raspberry Pi and Arduino to do the music and software proccessing and LED lightshow control. The Raspberry Pi will run Volumio and the touchscreen to interface with the music sources. The output will go to an amplifier and the Arduino Uno which will use the incoming oltage signal from the Raspberry Pi to control some NeoPixel digitally controlable LEDs.
 
 
+# Repository Contents:
+- ino: This is where you will find the code for the Arduino
+-image: This is where you will find images for thee project at various stages
+
 # Bill of Materials:
 - 1 x Raspberry Pi B
 - 1 x Arduino Uno
