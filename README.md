@@ -1,4 +1,4 @@
-# CS207_Maker_Project
+# CS207_Maker_Project_Touchscreen_Jukebox
 
 The project being designed for CS207 is a touchscreen jukebox.
 
