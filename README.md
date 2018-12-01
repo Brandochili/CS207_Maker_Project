@@ -16,6 +16,9 @@ This jukebox runs a free and open source software called Volumio. The jukebox is
 - 1 x Justboom Stereo DAC
 - 1 x Raspberry Pi Official Touchscreen
 - 1 x Old Computer Power Supply
+- 1 x 3.5mm male AUX cable to (any other end will work like headphones or 3.5mm AUX)
+- 2 x RCA splitter
+- 1 x RCA audio cable male to male
 - 1 x Volumio Software Installed on Micro SD Card and Volumio Account
 - 1 x PTFE clear 1/2 outer diameter tubing
 - 1 x 4ft by 2ft sheet of 3/4 inch thick plywood
