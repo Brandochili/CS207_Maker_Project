@@ -76,17 +76,17 @@ You are now ready to try it out. Plug it in and enjoy!
 
 # Team:
 
-Brandon Watson - head designer
-Carter Watson - code contribution
-Scott Watson - second pair of hands for woodworking
-Janet Watson - design tips
+- Brandon Watson - head designer
+- Carter Watson - code contribution
+- Scott Watson - second pair of hands for woodworking
+- Janet Watson - design tips
 
 # Credit:
 
-software: www.volumio.com (Fantastic free open source software!!! Well done Volumio Team!)
-original idea: ETA PRIME YouTube Channel (https://www.youtube.com/watch?v=_0CufyjhK_4)
-code framework:Robert Robert YouTube Channel (https://www.youtube.com/watch?v=pQwgZwrXfhc&t=83s)
-cool animations:Tweaking4All (https://www.tweaking4all.com/hardware/arduino/adruino-led-strip-effects/)
+- software: www.volumio.com (Fantastic free open source software!!! Well done Volumio Team!)
+- original idea: ETA PRIME YouTube Channel (https://www.youtube.com/watch?v=_0CufyjhK_4)
+- code framework:Robert Robert YouTube Channel (https://www.youtube.com/watch?v=pQwgZwrXfhc&t=83s)
+- cool animations:Tweaking4All (https://www.tweaking4all.com/hardware/arduino/adruino-led-strip-effects/)
 
 
 
