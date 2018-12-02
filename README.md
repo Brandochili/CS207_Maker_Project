@@ -76,7 +76,7 @@ Mains power is very dangerous:
 This section is where things can get dangerous so be careful. I used the power switch and plugin from an old computer power supply. Simply tear out these components out of the power supply. The power supply I used had resistors ad a 250v capacitor soldered onto the plugin. I removed these components as the 12v switching ower supply already has these built in. Now, wire the ground from the plugin to the ground on the switching power supply, the positive from the switch to the positive input and the negative from the switch to the negative input from the switching power supply. This is safer than directly wiring the power chord to the power supply as if the chrd is pulled, it will simply unplug from the plugin rather than havng live wires floating around.
 
 Uploading the LED animation code:
-The last step witht the electronics is to upload the LED code to the Arduino. The code file can be found in this repository. This code was not totally written by me. The foundation of this code came from___________ and some of the animations came from_____________.
+The last step witht the electronics is to upload the LED code to the Arduino. The code file can be found in this repository. This code was not totally written by me. The foundation of this code came from the Robert Robert YouTube channel (https://www.youtube.com/watch?v=pQwgZwrXfhc&t=83s) and some of the animations came from Tweaking4All (https://www.tweaking4all.com/hardware/arduino/adruino-led-strip-effects/).
 
 Both of these codes were heavily modified be me to match the requirememnts of this project.
 
