@@ -27,7 +27,7 @@ This jukebox runs a free and open source software called Volumio. The jukebox is
 - 2 x RCA splitter
 - 1 x RCA audio cable male to male
 - 1 x Volumio Software Installed on Micro SD Card and Volumio Account
-- 1 x PTFE clear 1/2 outer diameter tubing
+- 1 x PTFE clear 1/2 outer diameter tubing (optional - an led channel will work if you arent using a curved wood design)
 - 1 x 4ft by 2ft sheet of 3/4 inch thick plywood (optional, an already made box that you can modify will work too)
 - 1 x 4ft by 2ft sheet of 1/4 inch thick plywood (optional, an already made box that you can modify will work too)
 - 1 x box of 1 inch screws
