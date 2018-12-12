@@ -26,8 +26,8 @@ This jukebox runs a free and open source software called Volumio. The jukebox is
 - 1 x RCA audio cable male to male
 - 1 x Volumio Software Installed on Micro SD Card and Volumio Account
 - 1 x PTFE clear 1/2 outer diameter tubing
-- 1 x 4ft by 2ft sheet of 3/4 inch thick plywood
-- 1 x 4ft by 2ft sheet of 1/4 inch thick plywood
+- 1 x 4ft by 2ft sheet of 3/4 inch thick plywood (optional, an already made box that you can modify will work too)
+- 1 x 4ft by 2ft sheet of 1/4 inch thick plywood (optional, an already made box that you can modify will work too)
 - 1 x box of 1 inch screws
 - 1 x box of 3/4 inch screws
 - 1 x box of 1 1/4 inch screws
@@ -41,6 +41,7 @@ This jukebox runs a free and open source software called Volumio. The jukebox is
 - 1 x 1ft by 96 inch role of walnut veneer (optional)
 - 1 x 3ft by 1.5ft panel of solid walnut (optional)
 - a woodworking shop and fine woodworking tools (optional)
+- a wood finish like varathane or lacquer (I'm using emtech em6000 water based production acrylic Lacquer) (optional)
 
 
 # The Build Instructions:
@@ -98,7 +99,7 @@ You are now ready to try it out. Plug it in and enjoy!
 
 
 
-# Updates for CS 207 Project to come.
+# Updates for CS 207 Project:
 
 October 28th: All electronic components needed for this build have been ordered from various websites. The Sure Electronics AA-AB32174 2x50W TDA7492 Class-D Amplifier Board was chosen for the amplifier as it is a good quality unit that comes at a good price. Two 3.5 inch Dayton Audio Midrange woofers were used for the sound output for the jukebox as they have great bass response for the price and punch way about their weight class. The JustBoom stero DAC was used  to improve the sound quality being output from the Raspberry Pi. The official Raspberry Pi touchscreen was used as it has a wel established functionality with the Raspberry Pi and Volumio which is very important as Volumio is meant to be a cloud based service rather than a 'same machine' screen service. This device will have a more finished look than the general 'maker' theme as it will be used by many people and will hopefully end up being a showpiece. It will be made out of walnut and bloodwood.
 
@@ -106,3 +107,9 @@ October 29th: The basic framing for the LED light show coding has been taken fro
 
 November 1st - Coding challenges:
 Seeing as the code framework used for this build was designed around an auto gain adjustment microphone, a new equation had to be used to balance out the voltage readings coming in from the audio source (a headphone cable connected directly to the Arduino's ground and A0 pin). A microphone was not used for this projct as it was decided that the jukebox LEDs should only respond to the music from the jukebox and not outside noices and voices. The problem then arizes that the voltage can heavily range with volume. The detected ranges for voltage were 0 to 500. Therefore, a modulus divide equation was used to make sure that the LEDs function properly for any volume level.
+
+November 16th - Grounding issue:
+The LEDs for the jukebox are supposed to go into a rainbow cycle mode whenever a music signal cannot be detected. This is not happening as there is some stray voltage in the audio line. This could be due to a grounding issue or interference.
+
+November 20th - Applying the finish:
+Applying the finish is going really well. I am using emtech em6000 water based production acrylic Lacquer. This is amazing stuff! It covers well, cleans up easily, low smell and produces an amazing warm tone.
