@@ -13,8 +13,8 @@ This jukebox runs a free and open source software called Volumio. The jukebox is
 # Bill of Materials:
 - 1 x Raspberry Pi B
 - 1 x Arduino Uno
-- 1 x Amplifier()
-- 2 x speakers - make sure that the impedence and wattage of the speakers match what the amplifier can output per channel
+- 1 x Amplifier (I'm using the Sure electronics 2 x 50 Watt Class D Audio Amplifier Board - TDA7492 **note about this at end of list**)
+- 2 x speakers - make sure that the impedence and wattage of the speakers match what the amplifier can output per channel (
 - 1 x Adafruit NeoPixel 1 meter strip
 - 1 x 12 volt switching power supply
 - 1 x 19 volt laptop power supply
@@ -43,6 +43,7 @@ This jukebox runs a free and open source software called Volumio. The jukebox is
 - a woodworking shop and fine woodworking tools (optional)
 - a wood finish like varathane or lacquer (I'm using emtech em6000 water based production acrylic Lacquer) (optional)
 
+**The amplifier I used is for the two speakers I picked forthis project. Any speakers and amplifiers can be used as long as the Wattage and Ohms have been matched up. If you want to use the speakers I used, I would probably also use a 5 or 6 inch woofer as a sub and buy this 36v (not 19v) amplifier instead: http://store3.sure-electronics.com/3-x-200-watt-class-d-audio-amplifier-board-t-amp This is just a guide**
 
 # The Build Instructions:
 
