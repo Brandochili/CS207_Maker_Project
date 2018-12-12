@@ -34,6 +34,7 @@ This jukebox runs a free and open source software called Volumio. The jukebox is
 - 1 x box of 3/4 inch screws
 - 1 x box of 1 1/4 inch screws
 - 1 x 12 ft of wiring for the LEDs
+- 1 12inch by 12inch retro speaker fabric
 - 1 x 1000uF Capacitor
 - 1 x 12v to 5v stepdown module
 - 1 x 12v to 5v USB stepdown module with USB outputs
