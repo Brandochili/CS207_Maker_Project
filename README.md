@@ -51,35 +51,36 @@ This jukebox runs a free and open source software called Volumio. The jukebox is
 
 A huge portion of this poject is woodworking. I understand that the techniques used in this project are more advanced than a lot of people would like to take on but it doesnt have to be complicated. You can simply make a plywood box and paint it or find an already built box and modify it to meet the needs of this project.
 
-The woodworking challenge:
+**The woodworking challenge:**
 Woodworking is not for everyone so if this part of the build is a particular challenge, just note that an alredy assembled box may be used. I will not go into a lot of detail on the woodworking portion as it is too complicated to cover. Those of you who enjoy and have experience woodworking will be able to see how to make the jukebox. We will coverthe design of a simple painted plywood box. Lets start with the speaker boxes. These are small dedicated boxes that house each seaker. They provide a better and more punchy sound. These are not a requirement as the speakers will work without these but they do make a difference in sound. To find the size requirement of the boxes, check with the speaker manufacutre. This is a common spec for speakers. These box dimntions are only a guide. Try to get as close as possible to the dimentions but don't sweat over not being perfect. The Jukebox itself can be made out of 3/4 inch plywood. Make a box and screw it together. Cut out holes for the various components to mount through. You can paint the box any colour you want or leave it natural. I used a walnut veneer for the sides and top for this project and a solid piece of walnut for the front panel. The trim along the bottom is made out of bloodwood. Bloodwood is difficult to work with so I don't recomend working wth it unless you are experienced. The back of the jukebox is made out of 1/4 inch thick plywood that was painted black. This was screwed onto the body using 3/4 inch screws. The actual plugin and switches are meant to clamp onto a thin peice of metal. I used aluminum but hot gluing these compnents to the 1/4 inch plywood will work as well. 
 
-Lets start with the software:
+**Lets start with the software:**
 Go to www.volumio.com and download the software package from the download tab of the website. Select the Raspberry Pi code choise as this is what we will be using for this project. Once downloaded, using a flashing software, fsh the volumio software onto a 8gb micro SD card. Once complete, the SD card can be plugged into the Raspberry Pi (RPi). Before you power on the RPi, make a volumio account. A bonus feature you get from a volumio account is the ability to cloud save your volumio device settings for poweroutages. Don't power the RPi on at this point.
 
-Next lets look at installing the RPi Official Touchscreen:
+**Next lets look at installing the RPi Official Touchscreen:**
 There is an excelent video on youtube demonstrating how to do this. The link is here: https://www.youtube.com/watch?v=tK-w-wDvRTg
 Please note that for this project, we will use the dual micro USB cable method of powering the devices. Don't apply power yet.
 
-First bootup:
+**First bootup:**
 before you boot up the RPi, download the volumio app from the App Store or the Play Store or have an internet browser open. Plug an ethernet cable into the RPi for internet and apply power to the RPi. Volumio is not set up to stream to the touchscreen so you will only get lines of code. Use the app to automatically find the RPi or find the IP address on the touchscreen and enter that into your browser. You will now be able to control the RPi volumio system. Go to plugins and download the Raspberry Pi Official Touchscreen plugin (it may take quite a while so let it instll fully) and then enable it. Using the app or browser, restart the RPi in settings tab and when the RPi restarts, volumio should now be on the touchscreen! If it doesnt, go back to re-flashing the micro SD card and start over.
 
-Lets talk about the Arduino and NeoPixel circuitry now: (Image of circuit in images folder)
+**Lets talk about the Arduino and NeoPixel circuitry now:**
+![alt text]()
 The Arduino Uno can't supply enough power to power all of the LEDs so we will need to power the LEDs seperately. To do this, we will use a 12 volt switching power supply. The circuitry diagram can be seen below but here is a discription of what is going on. The positive and negative (ground) wire from the power supply will  be wired to a 12v to 5v stepdown module and then soldered onto a proto board. They will first go through a 1000uF capacitor to smooth out the voltage to protect the LEDs. From the capacitor, the positive end will be connected to the 5V input on the LED strip and the ground will be connected to the ground on the LED strip. The ground wil also go to one of the ground pins on the Arduino as the LED strip must be grounded to the Arduino as well (Do not connect the positive to the Arduino). The digital control lead from the LED strip will be connected to pin 6 on the Arduino with a 560 Ohm resistor in line to make sure that the signal stays smooth. Now that the LEDs and Arduino are connected, let move on!
 
-Connecting the Arduino to the Raspberry Pi:
+**Connecting the Arduino to the Raspberry Pi:**
 This is fairly simple. If using the headphone jack from the RPi for your music output, simply cut an old heaphone cable at one end to expose the left, right and ground wires. Plug a AUX splitter into the RPi and plug the cut headphone calbe into the splitter. Now plug either the left or right channel into the Arduino's A0 pin and th ground into the Arduino's ground pin. Plug the Arduino into the RPi using the USB cable.
 
-Speakers are no good without an Amplifier:
+**Speakers are no good without an Amplifier:**
 This next section will cover the connectin between the RPi, amplifier, power supply and speakers. To connect the RPi to the amplifier, use a3.5mm AUx to RCA cable. Plug the AUX end into the other end of the RPi splitter and the RCS ends into the amplifier. Using the speaker wire, wire up the left and right speakers to the amplifier. Finally, plug the 19v power supply to the amplifier.
 
-But the Rspberry Pi has no power:
+**But the Rspberry Pi has no power:**
 To power the RPi, we will use the 12v switching power supply and connect the positive and negative ends of the 12v to 5v USB stepdown module. Now, plug the RPi into the USB module.
 
-Mains power is very dangerous:
+**Mains power is very dangerous:**
 This section is where things can get dangerous so be careful (when in doubt, use a voltmeter to test connections). I used the power switch and plugin from an old computer power supply. Simply tear out these components out of the power supply. The power supply I used had resistors ad a 250v capacitor soldered onto the plugin. I removed these components as the 12v switching ower supply already has these built in. Now, wire the ground from the plugin to the ground on the switching power supply, the positive from the switch to the positive input and the negative from the switch to the negative input from the switching power supply. This is safer than directly wiring the power chord to the power supply as if the chrd is pulled, it will simply unplug from the plugin rather than havng live wires floating around.
 
-Uploading the LED animation code:
+**Uploading the LED animation code:**
 The last step witht the electronics is to upload the LED code to the Arduino. The code file can be found in this repository. This code was not totally written by me. The foundation of this code came from the Robert Robert YouTube channel (https://www.youtube.com/watch?v=pQwgZwrXfhc&t=83s) and some of the animations came from Tweaking4All (https://www.tweaking4all.com/hardware/arduino/adruino-led-strip-effects/).
 
 Both of these codes were heavily modified be me to match the requirememnts of this project.
