@@ -5,11 +5,15 @@
  *from the audio source and converts them to a usable number which is then modulus devided to produce numbers from o to 11. Each
  *number in this range is assigned a light show function which produces a cool lighting effect that can be customized.
  *
+ *Credits:
+ *
  *The framework for this code was written by YouTube channel Robert Robert. Link: https://www.youtube.com/watch?v=pQwgZwrXfhc&t=83s
  *The code has been heavily modified by Brandon Watson during November 2018 to suit the needs of this project.
  *Carter Watson contributed to the modulus equation portion of this code.
  *The various cool animations including (twinkle, bouncy balls, meteor, running lights, cylon effect) were taken from 
  *https://www.tweaking4all.com/hardware/arduino/adruino-led-strip-effects/
+ *
+ *Colour Instuctions:
  *
  *There are two methods used to assign colours in this program. Standard RGB brightness levels and HTML colour coding.
  *Example1: (255, 0, 0) yeilds green as the NeoPixels are set up as GRB rather than RGB. 255 is the maximum brightness of that colour.
