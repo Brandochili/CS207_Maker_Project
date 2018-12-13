@@ -12,6 +12,7 @@
  *Carter Watson contributed to the modulus equation portion of this code.
  *The various cool animations including (twinkle, bouncy balls, meteor, running lights, cylon effect) were taken from 
  *https://www.tweaking4all.com/hardware/arduino/adruino-led-strip-effects/
+ *Adafruit NeoPixel Library - https://learn.adafruit.com/adafruit-neopixel-uberguide/arduino-library-installation
  *
  *Colour Instuctions:
  *
