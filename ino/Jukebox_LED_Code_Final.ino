@@ -40,6 +40,7 @@ long randomA;//random number variable for green LED
 long randomB;//random number variable for red LED
 long randomC;//random number variable for blue LED
 // same for variables below. These extra random variable are for the bouncy ball function
+// working on a new version of the code that does away with all of these variables to clean things up
 long randomD;
 long randomE;
 long randomF;
