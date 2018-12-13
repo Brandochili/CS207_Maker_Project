@@ -1,10 +1,13 @@
-Code Sources:
+#Code Sources:
 
-Framework:
-Creator - Robert Robert YouTube Channel
-Link - https://www.youtube.com/watch?v=pQwgZwrXfhc
+#Framework:
+ - Creator - Robert Robert YouTube Channel
+ - Link - https://www.youtube.com/watch?v=pQwgZwrXfhc
 
-Cool Animations (bouncy balls, meteor, theare lights, twinkle...):
-Creator - Not clear.
-Website - https://www.tweaking4all.com/hardware/arduino/adruino-led-strip-effects/
+#Cool Animations (bouncy balls, meteor, theare lights, twinkle...):
+ - Creator - Not clear.
+ - Website - https://www.tweaking4all.com/hardware/arduino/adruino-led-strip-effects/
 
+#Library:
+ - Adafruit NeoPixel Library (Adafruit_NeoPixel.h)
+ - Link: https://learn.adafruit.com/adafruit-neopixel-uberguide/arduino-library-installation
